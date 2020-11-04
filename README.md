@@ -7,7 +7,7 @@ O objetivo do script é, além de transferir os arquivos do Drive, coletar infor
 ## Estrutura e funcionamento do script
 
 ### Linguagem e bibliotecas
-O script foi desenvolvido na linguagem python utilizando as bibliotecas pydrive e xml.
+O script foi desenvolvido na linguagem Python, utilizando as bibliotecas pydrive e xml.
 A biblioteca pydrive é utilizada para acessar o Drive, baixar os arquivos e coletar as informações relativas aos respectivos arquivos. O módulo xml.etree.ElementTree foi utilizado para estruturar essas informações em um arquivo 'metadados_drive.xml', que permite que elas sejam facilmente acessadas, com o propósito de serem utilizadas para alimentar o arquivo 'metadados.xml', gerado pelo script de enriquecimento de dados.
 
 ### Autenticação
